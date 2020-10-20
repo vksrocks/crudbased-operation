@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+<head>
+	<title>Hello</title>
+	<link rel="stylesheet" type="text/css" href="{% static 'enroll/css/bootstrap.css' %}">
+</head>
+<body>
+	
+	
+	
+    <div class="container  mt-5">
+    	
+    	<h1 class= "text-center alert alert-success "> Hello welcome to the home page this is our crud based project</h1>
+
+    	{% block content%} {% endblock %}
+    </div>
+	
+	
+
+   
+   
+    <script src="{% static 'enroll/js/jquery.js'%}"></script>
+    <script src="{% static 'enroll/js/popper.js'%}"></script>
+     <script src="{% static 'enroll/js/bootstrap.js'%}"></script>
+</body>
+</html>
